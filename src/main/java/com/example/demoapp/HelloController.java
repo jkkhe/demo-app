@@ -13,7 +13,7 @@ public class HelloController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World Health Edge participants!";
+        return "Welcome participants!";
     }
 
     public static void main(String[] args) {
